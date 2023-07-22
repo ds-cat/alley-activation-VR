@@ -42,7 +42,7 @@ namespace DF
 
         public bool displayUp;
 
-        
+        public menuScript menuScript;
 
 
 
@@ -84,7 +84,7 @@ namespace DF
             pointer.thickness = 0.00f;
             infoGraphic.sprite = null;
             infoGraphic.color = new Vector4(0,0, 0, 0);
-
+            menuScript = GetComponentInChildren<menuScript>();
             //pointer.pointer;
         }
 
@@ -103,44 +103,47 @@ namespace DF
             pointer.thickness = 0.002f;
 
         }
-        void OnDrawGizmosSelected()
+
+        public void closeInfoGraph()
         {
-            Gizmos.color = Color.red;
-            Gizmos.DrawRay(right_hand.position, right_hand.transform.forward);
-            
+            infoGraphic.sprite = null;
+            infoGraphic.color = infoGraphic.color = new Vector4(0, 0, 0, 0);
+            outline.enabled = false;
+            currentSelection = null;
+            displayUp = false;
         }
 
 
             public void Update()
         {
-            if(trigger_down)
+            if (menuScript.menuBackround.enabled == false)
             {
-
-                if (displayUp)
+                if (trigger_down)
                 {
-                    //close dispaly infographic
-                    infoGraphic.sprite = null;
-                    infoGraphic.color = infoGraphic.color = new Vector4(0, 0, 0, 0); 
-                    outline.enabled = false;
-                    currentSelection = null;
+
+                    if (displayUp)
+                    {
+                        //close dispaly infographic
+                        closeInfoGraph();
+                    }
+                    else
+                    {
+                        pointAtObject();
+                    }
+
+                }
+                else if (currentSelection != null)
+                {
+                    //display infographic
+                    infoGraphic.color = Color.white;
+                    infoGraphic.sprite = Info.image;
+                    displayUp = true;
                 }
                 else
                 {
-                    pointAtObject();
+                    if (outline != null)
+                        outline.enabled = false;
                 }
-
-            }
-            else if(currentSelection != null)
-            {
-                //display infographic
-                infoGraphic.color = Color.white;
-                infoGraphic.sprite = Info.image;
-                displayUp = true;
-            }
-            else
-            {
-                if(outline!= null)
-                outline.enabled = false;
             }
         }
     }

@@ -50,6 +50,22 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/cycleLeft",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/cycleRight",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/menu",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/select",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
