@@ -54,6 +54,7 @@ namespace DF
 
         public void MenuUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
         {
+            Debug.Log("ding");
             openMenu();
         }
         public void MenuDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
@@ -83,6 +84,7 @@ namespace DF
 
         public void openMenu()
         {
+         
             if (menuBackround.enabled != true)
             {
                 menuBackround.enabled = true;
@@ -263,6 +265,7 @@ namespace DF
             selectionID = 2;
             closeMenu();
             menuOut.AddOnStateDownListener(MenuUp, handType);
+
             menuOut.AddOnStateUpListener(MenuDown, handType);
             selectOut.AddOnStateDownListener(selectUp, handType);
             selectOut.AddOnStateUpListener(selectDown, handType);
@@ -273,6 +276,7 @@ namespace DF
         // Update is called once per frame
         void Update()
         {
+
             objectInRight = allObjects[arrayIDRight];
             objectInLeft = allObjects[arrayIDLeft];
             objectInCenter = allObjects[arrayIDcenter];
