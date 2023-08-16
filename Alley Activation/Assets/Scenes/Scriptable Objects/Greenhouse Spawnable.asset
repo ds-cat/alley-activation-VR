@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b390ea38589de2a438ec32a2f4642ed0, type: 3}
+  m_Name: Greenhouse Spawnable
+  m_EditorClassIdentifier: 
+  propGameobject: {fileID: 5710925599965014477, guid: a0695ec2924f5484ea357c3c3bfa9a43,
+    type: 3}
+  propIcon: {fileID: 21300000, guid: 5a231b08c5c6d0348a502522657b1838, type: 3}
+  propName: Greehouse
+  objectInfo: {fileID: 6347765746138292899, guid: a0695ec2924f5484ea357c3c3bfa9a43,
+    type: 3}
