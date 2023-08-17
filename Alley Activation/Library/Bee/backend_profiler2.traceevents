@@ -1,0 +1,1019 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1692304314862753, "dur":1668, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304314864426, "dur":320, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1692304314864777, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1692304314864805, "dur":381, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1692304314865204, "dur":1261, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304314866465, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321402901, "dur":401, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403302, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403319, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403321, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403329, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403330, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403338, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403339, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403348, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403349, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403358, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403359, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403365, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403367, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403375, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403376, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403383, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403384, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403391, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403392, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403399, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403400, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403407, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403408, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403415, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403417, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403424, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403425, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403432, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403433, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403439, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403440, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403447, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403458, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321403466, "dur":6217, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1692304314865363, "dur":1109, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692304314866473, "dur":19054, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692304314885540, "dur":35781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1692304314921321, "dur":3495, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692304314940807, "dur":10966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation/Library/Bee/artifacts/il2cpp_conv_hkhk.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1692304314951781, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692304314953161, "dur":6448659, "ph":"X", "name": "IL2CPP_CodeGen",  "args": { "detail":"C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation/Library/Bee/artifacts/il2cpp_conv_hkhk.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1692304314865398, "dur":1082, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314866480, "dur":19051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314885540, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/8264181057349900552.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1692304314885555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314886745, "dur":746, "ph":"X", "name": "WriteResponseFile",  "args": { "detail":"Library/Bee/artifacts/rsp/8264181057349900552.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1692304314887494, "dur":5670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ihf1wll75sop.obj" }}
+,{ "pid":12345, "tid":2, "ts":1692304314893165, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314893293, "dur":5316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/scnlcmxs8z6c.obj" }}
+,{ "pid":12345, "tid":2, "ts":1692304314898609, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314898681, "dur":2224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/t9imdfvmp8ny.obj" }}
+,{ "pid":12345, "tid":2, "ts":1692304314900905, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314901039, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/1nmdrfzziclb.obj" }}
+,{ "pid":12345, "tid":2, "ts":1692304314901935, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314902038, "dur":18444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/pka8h/q6h4bewi8vmq.obj" }}
+,{ "pid":12345, "tid":2, "ts":1692304314920482, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314920523, "dur":20301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314940827, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692304314941202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314943485, "dur":4261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692304314947747, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304314947927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314949532, "dur":12278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304314961815, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.InputSystem.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304314962262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314962273, "dur":19927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.InputSystem.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304314982202, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692304314982210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304314982220, "dur":18861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692304315001085, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304315001211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304315001221, "dur":4573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304315005795, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692304315005801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304315005807, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692304315009280, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692304315009286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304315009292, "dur":5314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692304315014609, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304315014780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304315014788, "dur":12596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304315027386, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304315027635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692304315027641, "dur":4460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1692304315032102, "dur":6370800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314865389, "dur":1086, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314866477, "dur":405, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314866882, "dur":18660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314885542, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/4fnudf7c9k5t0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1692304314885548, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314885740, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/59mq16hbw4tn2.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1692304314885741, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314885805, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/8xlowz6xdtmb3.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1692304314885807, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314885957, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dxvclcotdbt71.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1692304314885958, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314886102, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/8xlowz6xdtmb1.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1692304314886103, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314886219, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/405hzjzpbbhi0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1692304314886220, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314886385, "dur":9666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/jqqbux56shyy.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314896051, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314896120, "dur":3398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/pothzwfprasj.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314899518, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314899595, "dur":1112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/9k68r3bw1wee.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314900707, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314900782, "dur":1580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/46wvsnx3es15.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314902362, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314902437, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/8l8e7s06gakp.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314903325, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314903393, "dur":1844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/3f8or9jvyouh.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314905237, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314905463, "dur":1882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/rmed5t3r5tac.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314907345, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314907469, "dur":6091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/4rzhsvuugu8z.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314913560, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314913754, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/zq4ibx9eewhl.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314914058, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314914135, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/pzhn83etsd44.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314914257, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314914368, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/nvbzv1it3qav.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314914630, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314914721, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/xubmp84q157y.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314915550, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314915625, "dur":1339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/fkuicwdu2bd2.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314916964, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314917059, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/swbo4shwkw2f.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918069, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918134, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/pka8h/jg8m14qe8ju5.obj" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918265, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918352, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation/Library/Bee/artifacts/WinPlayerBuildProgram/il2cppOutput/build/baselib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918355, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918420, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation.exe" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918533, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918628, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918737, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918860, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":3, "ts":1692304314918972, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314919082, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1692304314919200, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314919263, "dur":21554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314940824, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692304314941224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314943475, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692304314947230, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304314947406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314949172, "dur":9979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304314959154, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304314959323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314959329, "dur":22343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304314981677, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692304314981685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314981699, "dur":17999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692304314999702, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692304314999710, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304314999720, "dur":6335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692304315006056, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692304315006085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304315006091, "dur":5717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692304315011810, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304315011936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304315011942, "dur":15056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304315026999, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304315027242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304315027249, "dur":3345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304315030595, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Management.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304315030798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692304315030804, "dur":14573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Management.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1692304315045379, "dur":6357531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314865463, "dur":1020, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314866483, "dur":19050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314885540, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/d51773owihlj0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1692304314885549, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314885747, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/jj4rbj27tmvy0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1692304314885748, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314885884, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/u48f5calqhwu0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1692304314885885, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314885993, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dxvclcotdbt72.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1692304314885995, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314886117, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/jj4rbj27tmvy3.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1692304314886119, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314886243, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/59mq16hbw4tn1.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1692304314886245, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314886378, "dur":13701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/u5ov611v19q6.obj" }}
+,{ "pid":12345, "tid":4, "ts":1692304314900079, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314900193, "dur":12556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/6akufc9z5akb.obj" }}
+,{ "pid":12345, "tid":4, "ts":1692304314912749, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314912873, "dur":2145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/7iu0tioqi5e6.obj" }}
+,{ "pid":12345, "tid":4, "ts":1692304314915018, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314915075, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/4yw8fb6aav6x.obj" }}
+,{ "pid":12345, "tid":4, "ts":1692304314915374, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314915459, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/vkbj4x8z9y4t.obj" }}
+,{ "pid":12345, "tid":4, "ts":1692304314916005, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314916067, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/8tv6yg9xkfta.obj" }}
+,{ "pid":12345, "tid":4, "ts":1692304314916401, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314916496, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/wa1ybjqxzgs5.obj" }}
+,{ "pid":12345, "tid":4, "ts":1692304314916951, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314917045, "dur":941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/a89qu76e3qdz.obj" }}
+,{ "pid":12345, "tid":4, "ts":1692304314917987, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314918388, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1692304314918548, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314918632, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":4, "ts":1692304314918749, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314918867, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1692304314918984, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314919088, "dur":21726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314940815, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304314941155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314943145, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304314946796, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304314946994, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314948489, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304314952763, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692304314952772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314952782, "dur":12576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692304314965363, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692304314965371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314965382, "dur":23403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692304314988790, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304314988968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304314988979, "dur":16202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304315005182, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.Poly2Tri.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304315005323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304315005329, "dur":9614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.Poly2Tri.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304315014946, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/SteamVR_Actions.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304315015102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304315015108, "dur":13035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/SteamVR_Actions.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1692304315028144, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692304315028287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692304315028294, "dur":17598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692304315045893, "dur":6357018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314865497, "dur":992, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314866489, "dur":19041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314885540, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/u1oik/pch-cpp-17639887232988351695.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1692304314885547, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314885790, "dur":13157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022Pch Library/Bee/artifacts/WinPlayerBuildProgram/u1oik/pch-cpp-17639887232988351695.pch (+obj)" }}
+,{ "pid":12345, "tid":5, "ts":1692304314898948, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314899242, "dur":1184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/2w7cks7tsmoe.obj" }}
+,{ "pid":12345, "tid":5, "ts":1692304314900427, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314900531, "dur":15135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/2nouxz01ze1x.obj" }}
+,{ "pid":12345, "tid":5, "ts":1692304314915666, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314915745, "dur":1413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/435qbtbdh3y4.obj" }}
+,{ "pid":12345, "tid":5, "ts":1692304314917158, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314917238, "dur":971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/lfshccqywmqt.obj" }}
+,{ "pid":12345, "tid":5, "ts":1692304314918209, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314918270, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/kpn84ivbca8o.obj" }}
+,{ "pid":12345, "tid":5, "ts":1692304314918761, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314918890, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1692304314919018, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314919120, "dur":21715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314940837, "dur":910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304314941751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314943417, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304314948070, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304314948242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314949668, "dur":10192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304314959862, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304314959868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314959875, "dur":15362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304314975241, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304314975248, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314975258, "dur":15592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304314990854, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304314990862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304314990872, "dur":13557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304315004431, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304315004437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304315004443, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304315007744, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304315007750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304315007756, "dur":8015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304315015772, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenVR.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1692304315015928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304315015936, "dur":8888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenVR.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1692304315024828, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304315024835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692304315024846, "dur":15586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692304315040435, "dur":6362479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314865531, "dur":963, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314866494, "dur":19066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314885562, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ez6lv74nwcb01.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1692304314885564, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314885759, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/d4qqqpfy0avd0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1692304314885760, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314885900, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/mqegv2lbe84o0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1692304314885901, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314886047, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/sik7qm03jd8n0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1692304314886048, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314886168, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/5oq2dlobtxkj1.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1692304314886169, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314886339, "dur":12588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/1i1gm65pa8h3.obj" }}
+,{ "pid":12345, "tid":6, "ts":1692304314898927, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314898992, "dur":14183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/xghvks7aphpe.obj" }}
+,{ "pid":12345, "tid":6, "ts":1692304314913176, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314913268, "dur":1043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/01702z2uclgz.obj" }}
+,{ "pid":12345, "tid":6, "ts":1692304314914311, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314914398, "dur":1260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/t1ycefx7hypl.obj" }}
+,{ "pid":12345, "tid":6, "ts":1692304314915658, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314915735, "dur":1334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ch7uuwjpvzj9.obj" }}
+,{ "pid":12345, "tid":6, "ts":1692304314917069, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314917149, "dur":1106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/mvicefc7qgtw.obj" }}
+,{ "pid":12345, "tid":6, "ts":1692304314918255, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314918363, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1692304314918364, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314918488, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1692304314918490, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314918587, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":6, "ts":1692304314918689, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314918813, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":6, "ts":1692304314918918, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314919021, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1692304314919126, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314919220, "dur":21600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314940820, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1692304314941491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314943442, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1692304314946835, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692304314947039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314948593, "dur":7333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692304314955930, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1692304314956075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314956086, "dur":22101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1692304314978188, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692304314978194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314978205, "dur":19263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692304314997469, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692304314997474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304314997480, "dur":29804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692304315027285, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1692304315027428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692304315027434, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1692304315031838, "dur":6371070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314865558, "dur":944, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314866502, "dur":19034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314885540, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/6u5ony083t6z0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1692304314885548, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314885752, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":7, "ts":1692304314885752, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314885892, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/c3ce2gvela7z0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1692304314885893, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314886020, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/novrcfs67yad0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1692304314886021, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314886143, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/x4jgt3dx9w8g0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1692304314886144, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314886278, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/m3je6balftfy1.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1692304314886279, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314886429, "dur":12822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/xzflehp3nz59.obj" }}
+,{ "pid":12345, "tid":7, "ts":1692304314899251, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314899324, "dur":3170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/y76nqe4grgjl.obj" }}
+,{ "pid":12345, "tid":7, "ts":1692304314902494, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314902565, "dur":2820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/f4kfl1tviiqj.obj" }}
+,{ "pid":12345, "tid":7, "ts":1692304314905385, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314905516, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/0ah6p2ic2k93.obj" }}
+,{ "pid":12345, "tid":7, "ts":1692304314906308, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314906397, "dur":10871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ddv0wjp645lj.obj" }}
+,{ "pid":12345, "tid":7, "ts":1692304314917268, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314917356, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/wc75naarzs9c.obj" }}
+,{ "pid":12345, "tid":7, "ts":1692304314918355, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314918452, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692304314918540, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314918631, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":7, "ts":1692304314918738, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314918862, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":7, "ts":1692304314918971, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314919080, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1692304314919199, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314919263, "dur":21567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314940832, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1692304314941133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314943510, "dur":5143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1692304314948653, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692304314949341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314949347, "dur":8801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692304314958152, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692304314958161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314958171, "dur":19949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692304314978123, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1692304314978343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314978349, "dur":18566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1692304314996917, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692304314996923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304314996930, "dur":5522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692304315002454, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1692304315002851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304315002857, "dur":22920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1692304315025778, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1692304315026064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304315026070, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1692304315030087, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityLinkerToEditorData.json" }}
+,{ "pid":12345, "tid":7, "ts":1692304315030233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692304315030239, "dur":17683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityLinkerToEditorData.json" }}
+,{ "pid":12345, "tid":7, "ts":1692304315047925, "dur":6354979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314865583, "dur":924, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314866507, "dur":19038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314885548, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/5oq2dlobtxkj0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1692304314885550, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314885770, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/gxagc96ppixv0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1692304314885772, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314885919, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/bwmwqbjorzyx0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1692304314885920, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314886077, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/s04i7tumf9y80.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1692304314886078, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314886209, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ylpehjkvwjkc1.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1692304314886210, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314886360, "dur":12865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/w5upxmgdf14v.obj" }}
+,{ "pid":12345, "tid":8, "ts":1692304314899225, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314899323, "dur":2342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/cbqdgqugtunf.obj" }}
+,{ "pid":12345, "tid":8, "ts":1692304314901665, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314901766, "dur":1572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/vow5o65cv02q.obj" }}
+,{ "pid":12345, "tid":8, "ts":1692304314903338, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314903457, "dur":9430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/eqianxptkmdu.obj" }}
+,{ "pid":12345, "tid":8, "ts":1692304314912888, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314912957, "dur":2256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/fx10ykfxouff.obj" }}
+,{ "pid":12345, "tid":8, "ts":1692304314915213, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314915272, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/tzgjfqmq3wd2.obj" }}
+,{ "pid":12345, "tid":8, "ts":1692304314916051, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314916098, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/c425lvvyyb7w.obj" }}
+,{ "pid":12345, "tid":8, "ts":1692304314916458, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314916529, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/zf6qoz3n07il.obj" }}
+,{ "pid":12345, "tid":8, "ts":1692304314917167, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314917228, "dur":1142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/d4far4z4flgn.obj" }}
+,{ "pid":12345, "tid":8, "ts":1692304314918370, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314918532, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304314918631, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314918716, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":8, "ts":1692304314918837, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314918957, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1692304314919077, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314919186, "dur":21622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314940809, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304314941155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314943426, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304314946798, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304314947116, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314948562, "dur":4629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304314953192, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304314953437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314953444, "dur":14365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304314967813, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304314967822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314967832, "dur":15636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304314983469, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304314983478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304314983486, "dur":18627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304315002114, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304315002296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304315002303, "dur":6329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304315008633, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304315008756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304315008762, "dur":5195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304315013959, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304315013966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304315013973, "dur":12483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304315026457, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304315026463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304315026469, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692304315028976, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304315029123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692304315029130, "dur":14792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1692304315043923, "dur":6358982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314865609, "dur":903, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314866513, "dur":19037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314885553, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ez6lv74nwcb03.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1692304314885556, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314885775, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dslayzahq66s0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1692304314885777, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314885955, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dxvclcotdbt70.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1692304314885957, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314886105, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/jj4rbj27tmvy2.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1692304314886106, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314886335, "dur":13404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/m5izxohlvubp.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314899739, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314899811, "dur":2370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/3r9be4aw9u3g.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314902181, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314902275, "dur":1405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/rmy44y4xcdon.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314903681, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314903811, "dur":1885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/tsxlzhwid9j9.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314905696, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314905785, "dur":1526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dhg6cg20y3cx.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314907311, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314907412, "dur":1056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/306ixhpfap4s.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314908468, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314908535, "dur":4892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/lg86lhupj0m9.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314913427, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314913522, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ccdohn0h00fw.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314914076, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314914170, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dmb1xp8w0b1p.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314914633, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314914709, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/0gppch7ikamv.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314915727, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314915803, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/60b72lfyavd1.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314916418, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314916490, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/mm8jklkrpz3n.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314916751, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314916808, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/qgxrnoxz6brf.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314917260, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314917349, "dur":928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/i2rbitif4l42.obj" }}
+,{ "pid":12345, "tid":9, "ts":1692304314918277, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314918365, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692304314918503, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314918591, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":9, "ts":1692304314918692, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314918821, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":9, "ts":1692304314918945, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314919063, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1692304314919138, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314919225, "dur":21587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314940820, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692304314941347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314943530, "dur":5020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692304314948551, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692304314948719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314948725, "dur":5661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692304314954390, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692304314954398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314954408, "dur":18939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692304314973350, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/SteamVR.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304314973638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314973650, "dur":9722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/SteamVR.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304314983373, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692304314983379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314983386, "dur":13883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692304314997270, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304314997490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304314997496, "dur":10779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304315008277, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304315008465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304315008471, "dur":4582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304315013055, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304315013222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304315013307, "dur":13986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304315027294, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304315027430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692304315027436, "dur":7805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1692304315035244, "dur":6367654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314865679, "dur":838, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314866517, "dur":19026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314885547, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/nhsehu5qpdir0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1692304314885549, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314885768, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/mwqqoxhn1egk0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1692304314885770, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314885916, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dslayzahq66s1.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1692304314885918, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314886088, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/2ajqjni0jhxe1.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1692304314886089, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314886207, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ylpehjkvwjkc0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1692304314886208, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314886357, "dur":5772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/tmk7vei9ilo1.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314892130, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314892243, "dur":1330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/boewi0xx5ts3.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314893573, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314893658, "dur":18934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ptc3aezockqi.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314912592, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314912654, "dur":1594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/6pamn00xk8pz.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314914248, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314914355, "dur":1355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/krji035cfb8y.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314915711, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314915878, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/qbqxnqwbz3u5.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314916173, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314916230, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/8lquv4mx39o2.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314916594, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314916707, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/qziyck7uqa96.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314916958, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314917045, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/fsy665yzgzzb.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314917779, "dur":313, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314918093, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/l1tbe728yoa4.obj" }}
+,{ "pid":12345, "tid":10, "ts":1692304314918411, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314918548, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692304314918645, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314918763, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":10, "ts":1692304314918873, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314918993, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1692304314919108, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314919220, "dur":21591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314940811, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692304314941102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314943536, "dur":4473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692304314948011, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692304314948155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314949457, "dur":10555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692304314960013, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1692304314960285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314960291, "dur":22457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1692304314982749, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1692304314982987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314982994, "dur":16769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1692304314999766, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692304314999773, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304314999787, "dur":27900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692304315027688, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692304315027694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692304315027700, "dur":20409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692304315048110, "dur":6354809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314865698, "dur":823, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314866522, "dur":19043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314885566, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ez6lv74nwcb00.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1692304314885568, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314885756, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":11, "ts":1692304314885757, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314885898, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/m3je6balftfy4.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1692304314885899, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314886031, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dxvclcotdbt76.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1692304314886032, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314886152, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/x4jgt3dx9w8g2.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1692304314886153, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314886277, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/m3je6balftfy0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1692304314886278, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314886396, "dur":12872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/eooa82oyq5jj.obj" }}
+,{ "pid":12345, "tid":11, "ts":1692304314899268, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314899332, "dur":2376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/1qh6rm2knwzf.obj" }}
+,{ "pid":12345, "tid":11, "ts":1692304314901708, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314901787, "dur":1461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/mdswnbmgdpop.obj" }}
+,{ "pid":12345, "tid":11, "ts":1692304314903249, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314903338, "dur":1420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/qq83b7wits73.obj" }}
+,{ "pid":12345, "tid":11, "ts":1692304314904758, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314904865, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/41bzne4t6nyx.obj" }}
+,{ "pid":12345, "tid":11, "ts":1692304314905859, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314905986, "dur":9285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/aukivbr28p5o.obj" }}
+,{ "pid":12345, "tid":11, "ts":1692304314915272, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314915347, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/tknp760d6qs2.obj" }}
+,{ "pid":12345, "tid":11, "ts":1692304314915847, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314915957, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/f6u146vtmcwt.obj" }}
+,{ "pid":12345, "tid":11, "ts":1692304314916609, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314916674, "dur":1591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/26703pr4td7s.obj" }}
+,{ "pid":12345, "tid":11, "ts":1692304314918265, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314918434, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304314918534, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314918632, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":11, "ts":1692304314919123, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314919229, "dur":21594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314940824, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304314941158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314943499, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304314947393, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304314947540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314949311, "dur":9925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304314959237, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304314959244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314959253, "dur":20116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304314979371, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304314979377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314979384, "dur":18230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304314997615, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304314997780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304314997786, "dur":6018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304315003806, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304315004033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304315004039, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304315007436, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304315007444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304315007451, "dur":4017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304315011472, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.KdTree.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304315011635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304315011644, "dur":4580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.KdTree.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304315016225, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Oculus.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304315016359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304315016365, "dur":11518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Oculus.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1692304315027885, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304315027891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692304315027897, "dur":9994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692304315037895, "dur":6365014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314865724, "dur":802, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314866526, "dur":19022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314885550, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/u1oik/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":12, "ts":1692304314885552, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314885743, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/5oq2dlobtxkj2.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1692304314885745, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314885897, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/pka8h/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":12, "ts":1692304314885898, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314886028, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dxvclcotdbt75.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1692304314886029, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314886157, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/x4jgt3dx9w8g3.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1692304314886158, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314886299, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/m3je6balftfy2.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1692304314886300, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314886405, "dur":12506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/0iq3fpn7jfm4.obj" }}
+,{ "pid":12345, "tid":12, "ts":1692304314898912, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314898992, "dur":12950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/atp6cm0bgkgj.obj" }}
+,{ "pid":12345, "tid":12, "ts":1692304314911942, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314912019, "dur":1288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/xfdfmzb7ed2h.obj" }}
+,{ "pid":12345, "tid":12, "ts":1692304314913308, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314913397, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/8q1yadqeogyi.obj" }}
+,{ "pid":12345, "tid":12, "ts":1692304314914114, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314914200, "dur":1169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/imywybmoakfs.obj" }}
+,{ "pid":12345, "tid":12, "ts":1692304314915369, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314915443, "dur":666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/mik9gfs75k3h.obj" }}
+,{ "pid":12345, "tid":12, "ts":1692304314916110, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314916170, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/72n5ogev7mwp.obj" }}
+,{ "pid":12345, "tid":12, "ts":1692304314916587, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314916650, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/l8sedj20pqgh.obj" }}
+,{ "pid":12345, "tid":12, "ts":1692304314916914, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314916981, "dur":1277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/5mys39npaol3.obj" }}
+,{ "pid":12345, "tid":12, "ts":1692304314918259, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314918373, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1692304314918530, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314918598, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":12, "ts":1692304314918693, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314918817, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":12, "ts":1692304314918929, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314919035, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1692304314919124, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314919224, "dur":21616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314940841, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Interaction.Toolkit.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1692304314941382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314943550, "dur":5904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Interaction.Toolkit.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1692304314949457, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304314949464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314949474, "dur":8653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304314958132, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1692304314958302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314958312, "dur":17763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1692304314976076, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1692304314976217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314976223, "dur":15020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1692304314991244, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304314991250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304314991257, "dur":10504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304315001763, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304315001770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304315001776, "dur":10144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304315011921, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1692304315012054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304315012060, "dur":12835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1692304315024896, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304315024902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304315024909, "dur":4977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304315029889, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304315029895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692304315029903, "dur":13739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692304315043645, "dur":6359271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314865746, "dur":785, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314866531, "dur":19010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314885542, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/uzxp2jpoxbsy0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1692304314885547, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314885754, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/lh2hgc8gzg8f0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1692304314885755, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314885904, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dxvclcotdbt74.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1692304314885905, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314886038, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/pvy767hn8wnw0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1692304314886040, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314886163, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/r7hdv15nbb1m0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1692304314886165, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314886311, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/m3je6balftfy3.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1692304314886312, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314886411, "dur":13756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/310lhxlbgv2y.obj" }}
+,{ "pid":12345, "tid":13, "ts":1692304314900168, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314900252, "dur":1181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/7p7duvv7a8h0.obj" }}
+,{ "pid":12345, "tid":13, "ts":1692304314901433, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314901525, "dur":1026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/boy5axt0sp2j.obj" }}
+,{ "pid":12345, "tid":13, "ts":1692304314902551, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314902656, "dur":11852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/z4dcwr2x3yk3.obj" }}
+,{ "pid":12345, "tid":13, "ts":1692304314914509, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314914598, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/lwxvos5v05uc.obj" }}
+,{ "pid":12345, "tid":13, "ts":1692304314915308, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314915369, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/msu8ktmqgsvp.obj" }}
+,{ "pid":12345, "tid":13, "ts":1692304314916258, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314916331, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/n7cj2ttdmzqx.obj" }}
+,{ "pid":12345, "tid":13, "ts":1692304314916709, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314916778, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/c4p6rq9iabll.obj" }}
+,{ "pid":12345, "tid":13, "ts":1692304314917182, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314917244, "dur":1134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/e9f95v2d74vq.obj" }}
+,{ "pid":12345, "tid":13, "ts":1692304314918378, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314918594, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":13, "ts":1692304314918708, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314918832, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":13, "ts":1692304314918957, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314919075, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1692304314919187, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314919246, "dur":21573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314940819, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304314941173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314943523, "dur":5293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304314948817, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304314948967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314948973, "dur":5012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304314953986, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304314953995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314954007, "dur":13920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304314967931, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304314968213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314968222, "dur":14579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304314982803, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304314983054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314983062, "dur":14742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304314997805, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304314997918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304314997923, "dur":6136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304315004061, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304315004185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304315004211, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1692304315006121, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315006127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304315006133, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315009348, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315009355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304315009361, "dur":4277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315013642, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315013652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304315013665, "dur":11223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315024890, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315024898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304315024905, "dur":5991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315030897, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315030903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692304315030909, "dur":14116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692304315045027, "dur":6357895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314865767, "dur":768, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314866535, "dur":19005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314885540, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/bxj5qx6f14mp0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1692304314885548, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314885691, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/jj4rbj27tmvy1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1692304314885693, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314885777, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/8xlowz6xdtmb2.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1692304314885779, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314885952, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/bwmwqbjorzyx2.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1692304314885953, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314886097, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/vuzc1aqpokyh0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1692304314886098, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314886431, "dur":12930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/3g1hdfjyf7ik.obj" }}
+,{ "pid":12345, "tid":14, "ts":1692304314899361, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314899562, "dur":3547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/s5lnny78ykmw.obj" }}
+,{ "pid":12345, "tid":14, "ts":1692304314903109, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314903219, "dur":1955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/wst4entqlo4s.obj" }}
+,{ "pid":12345, "tid":14, "ts":1692304314905174, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314905263, "dur":6063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/qkf9671qiqre.obj" }}
+,{ "pid":12345, "tid":14, "ts":1692304314911326, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314911464, "dur":4047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/7aa0t3sycapu.obj" }}
+,{ "pid":12345, "tid":14, "ts":1692304314915511, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314915581, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/gky4ti15dd0m.obj" }}
+,{ "pid":12345, "tid":14, "ts":1692304314916574, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314916659, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/1wib6kzbz0gz.obj" }}
+,{ "pid":12345, "tid":14, "ts":1692304314917240, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314917318, "dur":810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/jtu2059g5cpl.obj" }}
+,{ "pid":12345, "tid":14, "ts":1692304314918128, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314918363, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/baselib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304314918368, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314918531, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304314918833, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314918947, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1692304314919073, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314919169, "dur":21640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314940810, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1692304314941129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314943437, "dur":3500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1692304314946938, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1692304314947194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314948758, "dur":7255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1692304314956014, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1692304314956183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314956189, "dur":23328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1692304314979518, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/analytics.json" }}
+,{ "pid":12345, "tid":14, "ts":1692304314979680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314979686, "dur":17211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/analytics.json" }}
+,{ "pid":12345, "tid":14, "ts":1692304314996902, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304314996910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304314996921, "dur":7727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304315004649, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304315004659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304315004665, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304315007962, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304315007969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304315007975, "dur":4805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304315012782, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1692304315012901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304315012908, "dur":12423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1692304315025332, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304315025338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692304315025376, "dur":14545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692304315039925, "dur":6362981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314865786, "dur":753, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314866539, "dur":19013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314885552, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ez6lv74nwcb02.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1692304314885555, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314885750, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/59mq16hbw4tn0.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1692304314885751, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314885890, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/becm2n12w7d40.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1692304314885891, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314886017, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/dxvclcotdbt73.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1692304314886018, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314886145, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/x4jgt3dx9w8g1.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1692304314886146, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314886275, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/j86cgs4pcjrn0.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1692304314886276, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314886387, "dur":5848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/3xpwjvd0jirq.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314892236, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314892359, "dur":7169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ma2k950kg49n.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314899529, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314899604, "dur":2553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/9tuchk731q05.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314902158, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314902284, "dur":2107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/n6kw9izy475k.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314904391, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314904512, "dur":1236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ihiis3ixf9hq.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314905748, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314905849, "dur":1157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/3trorahgy0py.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314907006, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314907097, "dur":1446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/yzqyky7les18.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314908543, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314908673, "dur":2213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/hiwomlfx4acw.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314910886, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314910972, "dur":1232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/m8kf02nz9rs0.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314912205, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314912275, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/9gbt3tzv3plg.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314913347, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314913426, "dur":916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/lch3itngxkcl.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314914342, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314914416, "dur":1131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/d1bu831qom0g.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314915548, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314915644, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/69evukl54b0i.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314916379, "dur":673, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314917053, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/ds0tc8m9boo6.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314917942, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314918018, "dur":1244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/f0vvw/wejtaqsneoyh.obj" }}
+,{ "pid":12345, "tid":15, "ts":1692304314919262, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314919330, "dur":21491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314940823, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304314941527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314943463, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304314946737, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1692304314946938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314948439, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1692304314953370, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.CoreUtils.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1692304314953510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314953516, "dur":21228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.CoreUtils.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1692304314974749, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304314974757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314974768, "dur":16627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304314991398, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304314991407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304314991418, "dur":9790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304315001209, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304315001216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304315001223, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304315003259, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1692304315003391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304315003399, "dur":20316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1692304315023720, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304315023729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304315023740, "dur":6560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692304315030301, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1692304315030428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692304315030435, "dur":13051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1692304315043490, "dur":6359422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314865813, "dur":730, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314866544, "dur":19002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314885547, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ez6lv74nwcb04.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1692304314885550, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314885773, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/8xlowz6xdtmb0.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1692304314885774, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314885947, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/bwmwqbjorzyx1.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1692304314885948, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314886080, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/2ajqjni0jhxe0.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1692304314886082, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314886215, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ylpehjkvwjkc2.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1692304314886216, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314886367, "dur":12761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/zo57yuehbhlq.obj" }}
+,{ "pid":12345, "tid":16, "ts":1692304314899128, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314899193, "dur":13353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/0zrdm05elx58.obj" }}
+,{ "pid":12345, "tid":16, "ts":1692304314912547, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314912625, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/7umamud0641a.obj" }}
+,{ "pid":12345, "tid":16, "ts":1692304314913505, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314913576, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/mfpkzutt0n75.obj" }}
+,{ "pid":12345, "tid":16, "ts":1692304314913856, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314913946, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/2ib3t4iq63wc.obj" }}
+,{ "pid":12345, "tid":16, "ts":1692304314914189, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314914279, "dur":1355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/udx75s9bonpr.obj" }}
+,{ "pid":12345, "tid":16, "ts":1692304314915634, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314915709, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/16889393020320835911.rsp" }}
+,{ "pid":12345, "tid":16, "ts":1692304314915716, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314915792, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/u1oik/GameAssembly.dll.dummy.def" }}
+,{ "pid":12345, "tid":16, "ts":1692304314915793, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314915850, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/rdcraztxzd8h.obj" }}
+,{ "pid":12345, "tid":16, "ts":1692304314916206, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314916342, "dur":1761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/b6mbwdsf50t2.obj" }}
+,{ "pid":12345, "tid":16, "ts":1692304314918103, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314918163, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Win64_VS2022 Library/Bee/artifacts/WinPlayerBuildProgram/ei6vj/ew0khcbllj51.obj" }}
+,{ "pid":12345, "tid":16, "ts":1692304314918674, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314918818, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":16, "ts":1692304314918943, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314919068, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1692304314919166, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314919239, "dur":21577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314940816, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1692304314941125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314943433, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1692304314946686, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304314946691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314948263, "dur":4515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304314952781, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1692304314952930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314952936, "dur":18465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1692304314971404, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304314971412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314971421, "dur":12013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304314983435, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304314983440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314983445, "dur":14318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304314997764, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1692304314997879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304314997885, "dur":12436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1692304315010322, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304315010328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304315010336, "dur":5156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304315015495, "dur":868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1692304315016366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304315016373, "dur":11268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.OpenXR.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1692304315027642, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304315027648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692304315027682, "dur":8698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pugsl/OneDrive/Desktop/alley build/Alley Activation_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692304315036384, "dur":6366516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692304321412848, "dur":3655, "ph":"X", "name": "ProfilerWriteOutput" }
+,
