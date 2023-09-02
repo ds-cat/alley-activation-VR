@@ -1046,6 +1046,7 @@ m_ResolvedPackages:
     - 1.3.5
     - 1.3.7
     - 1.3.8
+    - 1.3.9
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1060,6 +1061,7 @@ m_ResolvedPackages:
     - 1.3.5
     - 1.3.7
     - 1.3.8
+    - 1.3.9
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1552,9 +1554,11 @@ m_ResolvedPackages:
     - 1.8.0-pre.1
     - 1.8.0
     - 1.9.0
+    - 1.9.1
     compatible:
     - 1.8.0
     - 1.9.0
+    - 1.9.1
     verified: 1.8.0
   dependencies:
   - name: com.unity.ugui
@@ -1651,6 +1655,7 @@ m_ResolvedPackages:
     - 2.4.0
     - 2.4.1
     - 2.4.3
+    - 2.5.0
     compatible:
     - 2.3.2
     - 2.4.0-pre.1
@@ -1658,6 +1663,7 @@ m_ResolvedPackages:
     - 2.4.0
     - 2.4.1
     - 2.4.3
+    - 2.5.0
     verified: 2.3.2
   dependencies:
   - name: com.unity.inputsystem
@@ -4293,12 +4299,14 @@ m_ResolvedPackages:
     - 2.2.3
     - 2.3.0-pre.1
     - 2.4.0-exp.1
+    - 2.4.0-exp.2
     compatible:
     - 2.2.1
     - 2.2.2
     - 2.2.3
     - 2.3.0-pre.1
     - 2.4.0-exp.1
+    - 2.4.0-exp.2
     verified: 2.2.3
   dependencies:
   - name: com.unity.modules.xr

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   propGameobject: {fileID: 350329744452506691, guid: a28477a3b06419d41b812af0c61af495,
     type: 3}
-  propIcon: {fileID: 21300000, guid: 895877ecce40fe14882319fe00f93dcc, type: 3}
-  propName: Cube
-  objectInfo: {fileID: 6023102106533638517, guid: ffa20385c69ffda4f86ebdaed3f0452b,
+  propIcon: {fileID: 21300000, guid: ad30339dfe1f21f4c9c68e8b6c1e02cd, type: 3}
+  propName: Sapling
+  objectInfo: {fileID: 6477846947851178412, guid: a28477a3b06419d41b812af0c61af495,
     type: 3}

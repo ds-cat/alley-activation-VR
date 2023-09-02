@@ -18,6 +18,7 @@ public class playerController : MonoBehaviour
         controller = GetComponent<CharacterController>();
         InputManager = GetComponent<InputManager>();
         //cameraTrans = Camera.main.transform;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()

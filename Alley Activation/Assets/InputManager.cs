@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    private FPSinputs inputs;
+    public FPSinputs inputs;
     private void Awake()
     {
         inputs = new FPSinputs();

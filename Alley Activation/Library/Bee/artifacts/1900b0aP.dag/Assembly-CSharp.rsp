@@ -325,6 +325,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/disableVR.cs"
+"Assets/EnableVR.cs"
 "Assets/InputManager.cs"
 "Assets/playerController.cs"
 "Assets/QuickOutline/Scripts/Outline.cs"

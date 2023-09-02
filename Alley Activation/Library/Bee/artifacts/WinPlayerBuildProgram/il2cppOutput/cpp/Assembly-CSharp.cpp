@@ -203,6 +203,8 @@ struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
 // System.DelegateData
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// EnableVR
+struct EnableVR_tE43FF20EC0F95ED7469002924C1F733A42E167B9;
 // FPSinputs
 struct FPSinputs_tD6F8FAE2D6836EA4C86A72AC287EAA96A1501DEB;
 // UnityEngine.GameObject
@@ -2237,6 +2239,11 @@ struct SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E  : public R
 {
 };
 
+// EnableVR
+struct EnableVR_tE43FF20EC0F95ED7469002924C1F733A42E167B9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+
 // InputManager
 struct InputManager_t29A2200021AE0E0EB6F34CB1B9DF031B3AE02677  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -3438,6 +3445,10 @@ struct XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields
 
 // UnityEngine.SkinnedMeshRenderer
 
+// EnableVR
+
+// EnableVR
+
 // InputManager
 
 // InputManager
@@ -4036,6 +4047,8 @@ inline InputManager_t29A2200021AE0E0EB6F34CB1B9DF031B3AE02677* Component_GetComp
 {
 	return ((  InputManager_t29A2200021AE0E0EB6F34CB1B9DF031B3AE02677* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
+// System.Void UnityEngine.Cursor::set_lockState(UnityEngine.CursorLockMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9 (int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.CharacterController::get_isGrounded()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_get_isGrounded_m548072EC190878925C0F97595B6C307714EFDD67 (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 InputManager::GetMovement()
@@ -4614,16 +4627,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void disableVR_Start_m93E46F8958B913DFAF564F0
 		return;
 	}
 }
-// System.Void disableVR::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void disableVR_Update_mB15B5B5B120142645C4DFE2605058E7DAAD4929F (disableVR_tFCD3C4AD0848B917615A8F9AA68A9B8273DAC96E* __this, const RuntimeMethod* method) 
+// System.Void disableVR::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void disableVR__ctor_m6DD5C3730FC729C938707C435C35459DA9718208 (disableVR_tFCD3C4AD0848B917615A8F9AA68A9B8273DAC96E* __this, const RuntimeMethod* method) 
 {
 	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void EnableVR::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnableVR_Start_mDAE166E108742AA52ED635044D623DC8F97AC596 (EnableVR_tE43FF20EC0F95ED7469002924C1F733A42E167B9* __this, const RuntimeMethod* method) 
+{
+	{
+		// XRSettings.enabled = true;
+		XRSettings_set_enabled_m15084475004A151A847825D5B73881FCEB19FD45((bool)1, NULL);
 		// }
 		return;
 	}
 }
-// System.Void disableVR::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void disableVR__ctor_m6DD5C3730FC729C938707C435C35459DA9718208 (disableVR_tFCD3C4AD0848B917615A8F9AA68A9B8273DAC96E* __this, const RuntimeMethod* method) 
+// System.Void EnableVR::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnableVR__ctor_m6F0514FAFADBEEE9CB5E1511EFF0C4E76124C7B3 (EnableVR_tE43FF20EC0F95ED7469002924C1F733A42E167B9* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -4779,6 +4810,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void playerController_Start_m4109C97E6F7ABF50
 		L_1 = Component_GetComponent_TisInputManager_t29A2200021AE0E0EB6F34CB1B9DF031B3AE02677_m8E3041B8E37434AC9E0732FE75F87B8BB04FE55D(__this, Component_GetComponent_TisInputManager_t29A2200021AE0E0EB6F34CB1B9DF031B3AE02677_m8E3041B8E37434AC9E0732FE75F87B8BB04FE55D_RuntimeMethod_var);
 		__this->___InputManager_4 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InputManager_4), (void*)L_1);
+		// Cursor.lockState = CursorLockMode.Locked;
+		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
 		// }
 		return;
 	}
