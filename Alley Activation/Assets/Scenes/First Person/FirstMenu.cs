@@ -2,6 +2,7 @@ using DF;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -38,6 +39,7 @@ public class FirstMenu : MonoBehaviour
     public TextMeshProUGUI centerText;
 
     public InputManager inputManager;
+    public selectObject selectObject;
 
     //arrow left
     //arrow right
@@ -76,7 +78,7 @@ public class FirstMenu : MonoBehaviour
 
     public void openMenu()
     {
-
+        selectObject.StopMove();
         if (menuBackround.enabled != true)
         {
             menuBackround.enabled = true;
@@ -251,33 +253,40 @@ public class FirstMenu : MonoBehaviour
         arrayIDRight = 2;
         selectionID = 2;
         closeMenu();
+        selectObject = GetComponent<selectObject>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(inputManager.inputs.Player.menu.WasPressedThisFrame())
+        if (selectObject.isInDefaultState)
         {
-            //open/close menu
-            openMenu();
-        }
 
-        if(inputManager.inputs.Player.cycleright.WasPressedThisFrame())
-        {
-            //cycle right
-            cycleRight();
-        }
+            if (inputManager.inputs.Player.menu.WasPressedThisFrame())
+            {
 
-        if(inputManager.inputs.Player.cycleleft.WasPressedThisFrame())
-        {
-            //cycle left
-            cycleLeft();
-        }
+                //open/close menu
+                openMenu();
 
-        if(inputManager.inputs.Player.select.WasPressedThisFrame())
-        {
-            //spawn object
-            selectCurrentSelection();
+            }
+
+            if (inputManager.inputs.Player.cycleright.WasPressedThisFrame())
+            {
+                //cycle right
+                cycleRight();
+            }
+
+            if (inputManager.inputs.Player.cycleleft.WasPressedThisFrame())
+            {
+                //cycle left
+                cycleLeft();
+            }
+
+            if (inputManager.inputs.Player.select.WasPressedThisFrame())
+            {
+                //spawn object
+                selectCurrentSelection();
+            }
         }
         objectInRight = allObjects[arrayIDRight];
         objectInLeft = allObjects[arrayIDLeft];

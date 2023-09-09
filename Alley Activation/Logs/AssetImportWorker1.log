@@ -15,7 +15,7 @@ C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61579
+62046
 Successfully changed project path to: C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation
 C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18848] Host "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 2738152268 [EditorId] 2738152268 [Version] 1048832 [Id] WindowsEditor(7,TheCoalMines) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29116] Host "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 1830006866 [EditorId] 1830006866 [Version] 1048832 [Id] WindowsEditor(7,TheCoalMines) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18848] Host "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 2738152268 [EditorId] 2738152268 [Version] 1048832 [Id] WindowsEditor(7,TheCoalMines) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29116] Host "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 1830006866 [EditorId] 1830006866 [Version] 1048832 [Id] WindowsEditor(7,TheCoalMines) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 116.15 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.56 ms.
+Refreshing native plugins compatible for Editor in 113.57 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation/Assets
@@ -67,55 +67,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008991 seconds.
+Registered in 0.008216 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 295 ms
-Refreshing native plugins compatible for Editor in 102.72 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Android Extension - Scanning For ADB Devices 255 ms
+Refreshing native plugins compatible for Editor in 96.03 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
+- Completed reload, in  0.883 seconds
 Domain Reload Profiling:
-	ReloadAssembly (973ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (883ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (791ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (705ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (618ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (543ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (389ms)
+				InitializePlatformSupportModulesInManaged (344ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014749 seconds.
+Registered in 0.011553 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 98.95 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 96.04 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
@@ -133,29 +133,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.327 seconds
+- Completed reload, in  1.286 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1328ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1287ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1105ms)
-			LoadAssemblies (107ms)
+		EndReloadAssembly (1074ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
+			SetupTypeCache (308ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (573ms)
+			SetupLoadedEditorAssemblies (537ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (293ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -163,13 +163,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 5245 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.2 MB). Loaded Objects now: 5741.
-Memory consumption went from 220.0 MB to 218.8 MB.
-Total: 3.621800 ms (FindLiveObjects: 0.430900 ms CreateObjectMapping: 0.140100 ms MarkObjects: 2.699400 ms  DeleteObjects: 0.350600 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 5247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.2 MB). Loaded Objects now: 5750.
+Memory consumption went from 228.3 MB to 227.1 MB.
+Total: 3.948100 ms (FindLiveObjects: 0.434600 ms CreateObjectMapping: 0.140300 ms MarkObjects: 3.003700 ms  DeleteObjects: 0.368300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,340 +183,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 180730.644204 seconds.
-  path: Assets/ExampleAssets/Models/XRControllerRight.fbx
-  artifactKey: Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/XRControllerRight.fbx using Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea60dc5b0431006c4ec3002082fd208') in 0.221385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.348648 seconds.
-  path: Assets/ExampleAssets/Models/XRControllerLeft.fbx
-  artifactKey: Guid(e48d18018a0ba46c283d9fd9c227e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/XRControllerLeft.fbx using Guid(e48d18018a0ba46c283d9fd9c227e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4812e2f2a07a8c17211f5c1fdf8e766e') in 0.064922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.423768 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Buggy.fbx
-  artifactKey: Guid(f9203d611b7f1a94ba17ef2ec88e6447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Buggy.fbx using Guid(f9203d611b7f1a94ba17ef2ec88e6447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165433322434cdffde94265477bba3dd') in 0.114576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.555755 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Models/Longbow.fbx
-  artifactKey: Guid(e694f124da5bfd84d97e67e8c2719420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Models/Longbow.fbx using Guid(e694f124da5bfd84d97e67e8c2719420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4855c247adf05d85a3d3a46a625ac0e4') in 0.048320 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012900 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1c8569827291471e9db0dcd976e97952>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.214 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1214ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (972ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (416ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.46 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 5163 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.9 MB). Loaded Objects now: 5802.
-Memory consumption went from 226.2 MB to 225.3 MB.
-Total: 3.711000 ms (FindLiveObjects: 0.412400 ms CreateObjectMapping: 0.119500 ms MarkObjects: 2.839000 ms  DeleteObjects: 0.338900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010104 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1c8569827291471e9db0dcd976e97952>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.151 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1152ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (915ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (421ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.64 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 5163 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.9 MB). Loaded Objects now: 5818.
-Memory consumption went from 226.3 MB to 225.3 MB.
-Total: 3.481600 ms (FindLiveObjects: 0.413600 ms CreateObjectMapping: 0.130500 ms MarkObjects: 2.576300 ms  DeleteObjects: 0.360300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2444.000867 seconds.
-  path: Assets/Scenes/Scriptable Objects/Spawnable rainbarrel.asset
-  artifactKey: Guid(ce3e9fa044578044eae2ab653daac2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scriptable Objects/Spawnable rainbarrel.asset using Guid(ce3e9fa044578044eae2ab653daac2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccafa9e42c3263efe914a3d4fc60c8b') in 0.025491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.731641 seconds.
-  path: Assets/Scenes/Scriptable Objects/Spawnable rainbarrel.asset
-  artifactKey: Guid(ce3e9fa044578044eae2ab653daac2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scriptable Objects/Spawnable rainbarrel.asset using Guid(ce3e9fa044578044eae2ab653daac2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb9ce1e42d4693948cfb5852b49dbf2') in 0.003996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 915.334780 seconds.
-  path: Assets/devotid/Folding Table and Chair/Prefabs/CHAIR_Folding.prefab
-  artifactKey: Guid(ebb2c3175a4c6d44b893dfc76330ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/devotid/Folding Table and Chair/Prefabs/CHAIR_Folding.prefab using Guid(ebb2c3175a4c6d44b893dfc76330ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5762adffbcd9076c0254ec870fc394e') in 0.212067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Prefabs/Clean/ChairWhite.prefab
-  artifactKey: Guid(2db25e299ca0efd4987e2a9fb713d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Prefabs/Clean/ChairWhite.prefab using Guid(2db25e299ca0efd4987e2a9fb713d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93382ea662b9c2518a2ca45a3d016e1b') in 0.248487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_basecolor.png
-  artifactKey: Guid(58b2aee450f335d4da30d44a24cbd483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_basecolor.png using Guid(58b2aee450f335d4da30d44a24cbd483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956fd737deacc27857d60da79d53f467') in 0.069059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_roughness.png
-  artifactKey: Guid(b73cfddc89bfefb4ba26e991c59bbfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_roughness.png using Guid(b73cfddc89bfefb4ba26e991c59bbfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb9843e5379838c23552576499957a2') in 0.018456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_basecolor.png
-  artifactKey: Guid(c707551513c30b348bdabf9be32a207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_basecolor.png using Guid(c707551513c30b348bdabf9be32a207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d4d1ff157a6bce216a971cbd10e84a') in 0.017338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Prefabs/Regular/ChairRed.prefab
-  artifactKey: Guid(d04946bc707578240bb713b83c84805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Prefabs/Regular/ChairRed.prefab using Guid(d04946bc707578240bb713b83c84805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7712fc5946ced3dae57facb1dda4373d') in 0.028494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Prefabs/Clean/ChairRed.prefab
-  artifactKey: Guid(7f7e54336d7f20e4f8d9bcdb8f5124ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Prefabs/Clean/ChairRed.prefab using Guid(7f7e54336d7f20e4f8d9bcdb8f5124ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e3125884db62d401b7bd764308ae25') in 0.021741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_roughness.png
-  artifactKey: Guid(eadfd9f1cf38b1e41873aa4680fff16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_roughness.png using Guid(eadfd9f1cf38b1e41873aa4680fff16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ebdc32bebf6e8e344081f0691abc24') in 0.017775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PBR Folding Chairs/Meshes/chFolding.A_LOD1.fbx
-  artifactKey: Guid(4fc36cdfd84e6f841b7f575a859b83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR Folding Chairs/Meshes/chFolding.A_LOD1.fbx using Guid(4fc36cdfd84e6f841b7f575a859b83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f147cadc2f94cb1cd77650ff2cf1962') in 0.035407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_Normal.bmp
-  artifactKey: Guid(f360da42c0fb2744e8a5cfca909b3039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_Normal.bmp using Guid(f360da42c0fb2744e8a5cfca909b3039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e5343657d61717da03808a783f3e2f') in 0.030460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Prefabs/Regular/ChairWhite.prefab
-  artifactKey: Guid(b286af571f3a3774ebb753908fc60f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Prefabs/Regular/ChairWhite.prefab using Guid(b286af571f3a3774ebb753908fc60f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cbc1d6abe2a1acbaaf2bd0fd636db1') in 0.023641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairWhite_basecolor.png
-  artifactKey: Guid(44897233740cf9b47bacb219b49620f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairWhite_basecolor.png using Guid(44897233740cf9b47bacb219b49620f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d87e21031dd13e4e85720828f1a926') in 0.017250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairRed_roughness.png
-  artifactKey: Guid(b35962e1084b0f24d8a1401e24dcaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairRed_roughness.png using Guid(b35962e1084b0f24d8a1401e24dcaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983d67eb81b34e528c6e65d1042bd867') in 0.020032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_normal.png
-  artifactKey: Guid(e5e291c994aa1bd47be8d6259cfdc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_normal.png using Guid(e5e291c994aa1bd47be8d6259cfdc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2ac02a758d6cf3077500dc6ed9ebc3') in 0.018909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldRed_normal.png
-  artifactKey: Guid(cb26a8ddfe1dec64a9a7c8909cc40630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldRed_normal.png using Guid(cb26a8ddfe1dec64a9a7c8909cc40630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf991de2a8a2fdf47f330ac321e2e1a') in 0.021343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue.mat
-  artifactKey: Guid(78c32258da693ea4b9d49edc7c07c48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue.mat using Guid(78c32258da693ea4b9d49edc7c07c48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da99c5b633e270ad3a913809c6ec5844') in 0.042219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Models/PlasticChair.fbx
-  artifactKey: Guid(5be44b40398667d4fba1062c30851480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Models/PlasticChair.fbx using Guid(5be44b40398667d4fba1062c30851480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a9aa62c989caa6f2c338773c96cf95') in 0.022381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite.mat
-  artifactKey: Guid(f93a7a9f019e7e6429b16245b4a2e743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite.mat using Guid(f93a7a9f019e7e6429b16245b4a2e743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd358e1067e55cbee4de5918f8392850') in 0.026051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldWhite_roughness.png
-  artifactKey: Guid(b4375fa8b0b48f24f97a8f005fa08f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldWhite_roughness.png using Guid(b4375fa8b0b48f24f97a8f005fa08f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665bb969f88e547da25cc44cb1d09a7b') in 0.018260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed.mat
-  artifactKey: Guid(401a05873ab630f4d978c6420b886fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed.mat using Guid(401a05873ab630f4d978c6420b886fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0801d31c487f145ec78306eec20f981') in 0.022173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldWhite_basecolor.png
-  artifactKey: Guid(f8a90371d64dddb4bb1bcd5bee98bf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldWhite_basecolor.png using Guid(f8a90371d64dddb4bb1bcd5bee98bf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484abafd2679074b99099e4a64fb9e60') in 0.020506 seconds 
+  Time since last request: 864649.987202 seconds.
+  path: Assets/Scenes/Scriptable Objects/Objects/Cube (122) Variant.prefab
+  artifactKey: Guid(5e9a5e50fff426a4da88f41a945cb6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scriptable Objects/Objects/Cube (122) Variant.prefab using Guid(5e9a5e50fff426a4da88f41a945cb6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b920fffc46ef3866796adbb374c93c9e') in 0.073889 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_roughness.png
-  artifactKey: Guid(a8abcd874c4f4c844bac78c2722928f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_roughness.png using Guid(a8abcd874c4f4c844bac78c2722928f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857d1c4b377fd2ee71fa7f4ba33e94bc') in 0.020179 seconds 
+  path: Assets/Scenes/Scriptable Objects/Objects/Cube (149) Variant.prefab
+  artifactKey: Guid(318bf9070d50bf5489dfefc5ddd5a615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scriptable Objects/Objects/Cube (149) Variant.prefab using Guid(318bf9070d50bf5489dfefc5ddd5a615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1865b6ff52b7d73025de31cc3c6391') in 0.010294 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldWhite.mat
-  artifactKey: Guid(8f84ce79342661a478f718d15225198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldWhite.mat using Guid(8f84ce79342661a478f718d15225198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a54f4a2a5744da248215d8925566cb5') in 0.024485 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Scriptable Objects/Objects/Cube (147) Variant.prefab
+  artifactKey: Guid(98149f769de1a264b8992d4c5d0d3b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scriptable Objects/Objects/Cube (147) Variant.prefab using Guid(98149f769de1a264b8992d4c5d0d3b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fad3b769fdee72d2c0d6ae6df54fd2') in 0.009285 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairWhite.mat
-  artifactKey: Guid(1935fc3f9a7146347948f191304e55a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairWhite.mat using Guid(1935fc3f9a7146347948f191304e55a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2650c9f5ea0bf44d6891c955351f380') in 0.027083 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Scriptable Objects/Objects/Cube (148) Variant.prefab
+  artifactKey: Guid(eab7c684529a65543a431f912bed30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scriptable Objects/Objects/Cube (148) Variant.prefab using Guid(eab7c684529a65543a431f912bed30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd317d9efcf1e9244f12b0c14ea8d53d') in 0.010569 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldWhite_normal.png
-  artifactKey: Guid(99d73a57d03f9c041814001fc7b2e859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldWhite_normal.png using Guid(99d73a57d03f9c041814001fc7b2e859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59140f1c595929f89b83ae1a04d60d15') in 0.018210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.968657 seconds.
-  path: Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairWhite_roughness.png
-  artifactKey: Guid(5fcd9899e82a91c4bbe45940d4e8cd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairWhite_roughness.png using Guid(5fcd9899e82a91c4bbe45940d4e8cd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026b3e6818252ab581488c51f85b53d0') in 0.018740 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Scriptable Objects/Objects/Cube (127) Variant.prefab
+  artifactKey: Guid(1aa35bf78db57ec4caa7196333890837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scriptable Objects/Objects/Cube (127) Variant.prefab using Guid(1aa35bf78db57ec4caa7196333890837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54908a269cec2083dedc3b487ad6ac29') in 0.009341 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

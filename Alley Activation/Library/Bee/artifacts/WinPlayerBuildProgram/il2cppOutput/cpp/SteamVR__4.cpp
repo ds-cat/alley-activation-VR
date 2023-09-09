@@ -21168,7 +21168,7 @@ IL_0227:
 		NullCheck(L_183);
 		String_t* L_184 = L_183->___componentName_0;
 		NullCheck(L_182);
-		VirtualActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_182, L_184);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_182, L_184);
 	}
 
 IL_03bf:
@@ -22733,7 +22733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerButtonHints_ShowText_m8167D22C
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = L_12->___text_8;
 		String_t* L_14 = ___1_text;
 		NullCheck(L_13);
-		VirtualActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_13, L_14);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_13, L_14);
 	}
 
 IL_0048:
@@ -23004,7 +23004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ControllerButtonHints_GetActiveHint
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = L_8->___text_8;
 		NullCheck(L_9);
 		String_t* L_10;
-		L_10 = VirtualFuncInvoker0< String_t* >::Invoke(72 /* System.String UnityEngine.UI.Text::get_text() */, L_9);
+		L_10 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_9);
 		return L_10;
 	}
 

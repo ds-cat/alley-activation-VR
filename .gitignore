@@ -71,3 +71,14 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Alley Activation/Library/ArtifactDB
+*.resS
+Alley Activation/Library/PlayerDataCache/Win64/Data/resources.assets.resS
+*.resS
+Alley Activation/Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS
+Alley Activation/Temp/FSTimeGet-fb83f037bcd1f1c4c86a3ada704c5d08
+Alley Activation/Temp/UnityLockfile
+Alley Activation/Temp/FSTimeGet-d106edfe677375a4ea1200a02f0385b2
+Alley Activation/Temp/FSTimeGet-81737cdebba1a0f47a169eb711bc6e6e
+Alley Activation/Temp/FSTimeGet-756e656009e03b542b8cc42492b7dd2b
+Alley Activation/Temp/FSTimeGet-fcbcfe3491fcf5546b1fa9b71fd87ad2
+Alley Activation/Temp/FSTimeGet-ed7c85556559123448d86f20f175083b

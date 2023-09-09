@@ -25,7 +25,7 @@ namespace DF
         public GameObject currentSelection;
         public objectInfo Info;
         public SteamVR_LaserPointer pointer;
-        public Collider collider;
+        public Collider collide;
         public Rigidbody body;
         public laser pointerLaser;
 

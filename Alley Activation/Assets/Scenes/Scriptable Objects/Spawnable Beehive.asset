@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b390ea38589de2a438ec32a2f4642ed0, type: 3}
   m_Name: Spawnable Beehive
   m_EditorClassIdentifier: 
-  propGameobject: {fileID: 4232397581101034888, guid: 89645ef2b51c44949b447122ad66e131,
+  propGameobject: {fileID: 6311391335552855738, guid: 791de098cc99d6146b57b72a8b51b284,
     type: 3}
   propIcon: {fileID: 21300000, guid: 31e8a654ceb7e3e45bd375f995cf906e, type: 3}
   propName: Beehive
-  objectInfo: {fileID: 2345271122251964055, guid: 8547c4791ad0e644e97cbc2194933d1b,
+  objectInfo: {fileID: 144372609565447467, guid: 791de098cc99d6146b57b72a8b51b284,
     type: 3}

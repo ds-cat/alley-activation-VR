@@ -15512,7 +15512,7 @@ IL_00c6:
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___titleText_21;
 		String_t* L_24 = __this->___title_7;
 		NullCheck(L_23);
-		VirtualActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_23, L_24);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_23, L_24);
 		// }
 		return;
 	}
@@ -15965,7 +15965,7 @@ IL_0140:
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_40 = __this->___titleText_21;
 		String_t* L_41 = __this->___title_7;
 		NullCheck(L_40);
-		VirtualActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_40, L_41);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_40, L_41);
 		// ReleaseRelevantComponents();
 		TeleportPoint_ReleaseRelevantComponents_m1E012EB91AC91389ABA6DEB16199FCFBF97562EA(__this, NULL);
 		// }

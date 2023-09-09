@@ -4354,7 +4354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetMeasurement_Update_m14524E36D7CC15
 		String_t* L_30;
 		L_30 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D((&V_1), _stringLiteral8AD771670AE0EBEF69C95CAD941F6F05A7252A5B, NULL);
 		NullCheck(L_29);
-		VirtualActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_29, L_30);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_29, L_30);
 		// measurementTextFT.text = (distance * 3.28084).ToString("00.0ft");
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_31 = __this->___measurementTextFT_8;
 		float L_32 = V_1;
@@ -4362,7 +4362,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetMeasurement_Update_m14524E36D7CC15
 		String_t* L_33;
 		L_33 = Double_ToString_m70EC76E1DAD7E8B5B47AF9292189BF3711B24B75((&V_3), _stringLiteral92AA61129D76DB10D47E27CA128DEA7B55875A58, NULL);
 		NullCheck(L_31);
-		VirtualActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_31, L_33);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_31, L_33);
 		// lastDistance = distance;
 		float L_34 = V_1;
 		__this->___lastDistance_11 = L_34;

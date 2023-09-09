@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b390ea38589de2a438ec32a2f4642ed0, type: 3}
+  m_Name: House A
+  m_EditorClassIdentifier: 
+  propGameobject: {fileID: 6824389552484868473, guid: 8485da755ff8dcd40bb386b6af7c927d,
+    type: 3}
+  propIcon: {fileID: 21300000, guid: acb67b4a3d00bbf4695bdcdf97554805, type: 3}
+  propName: Brown House
+  objectInfo: {fileID: 148254425175533422, guid: 8485da755ff8dcd40bb386b6af7c927d,
+    type: 3}

@@ -89,6 +89,33 @@ public partial class @FPSinputs: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""move up"",
+                    ""type"": ""Button"",
+                    ""id"": ""3103dc28-9e84-4214-90ef-e0e718710ddf"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""move down"",
+                    ""type"": ""Button"",
+                    ""id"": ""f6378a15-cbc3-4047-83f3-956a6966792e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""info"",
+                    ""type"": ""Button"",
+                    ""id"": ""7f56346c-5373-4544-8e51-220e55d53f67"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -289,6 +316,72 @@ public partial class @FPSinputs: IInputActionCollection2, IDisposable
                     ""action"": ""cycle right"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""090f9ab9-74cb-4789-b063-2bfabb6c0497"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""move up"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ba90ddbe-df26-4254-bcf4-f17325eebfb6"",
+                    ""path"": ""<Keyboard>/j"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""move up"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""485e07f3-8dfd-40fb-97ba-dc7d34d58659"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""move down"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""82800a9f-e0d5-406f-99b4-c33da14a195a"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""move down"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""af270a4f-dda8-4d05-a3d0-6ba45e71530d"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""info"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""811494bb-8a63-4370-a86e-56a01c7a2b6d"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""info"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -316,6 +409,9 @@ public partial class @FPSinputs: IInputActionCollection2, IDisposable
         m_Player_select = m_Player.FindAction("select ", throwIfNotFound: true);
         m_Player_cycleleft = m_Player.FindAction("cycle left", throwIfNotFound: true);
         m_Player_cycleright = m_Player.FindAction("cycle right", throwIfNotFound: true);
+        m_Player_moveup = m_Player.FindAction("move up", throwIfNotFound: true);
+        m_Player_movedown = m_Player.FindAction("move down", throwIfNotFound: true);
+        m_Player_info = m_Player.FindAction("info", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -384,6 +480,9 @@ public partial class @FPSinputs: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_select;
     private readonly InputAction m_Player_cycleleft;
     private readonly InputAction m_Player_cycleright;
+    private readonly InputAction m_Player_moveup;
+    private readonly InputAction m_Player_movedown;
+    private readonly InputAction m_Player_info;
     public struct PlayerActions
     {
         private @FPSinputs m_Wrapper;
@@ -395,6 +494,9 @@ public partial class @FPSinputs: IInputActionCollection2, IDisposable
         public InputAction @select => m_Wrapper.m_Player_select;
         public InputAction @cycleleft => m_Wrapper.m_Player_cycleleft;
         public InputAction @cycleright => m_Wrapper.m_Player_cycleright;
+        public InputAction @moveup => m_Wrapper.m_Player_moveup;
+        public InputAction @movedown => m_Wrapper.m_Player_movedown;
+        public InputAction @info => m_Wrapper.m_Player_info;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -425,6 +527,15 @@ public partial class @FPSinputs: IInputActionCollection2, IDisposable
             @cycleright.started += instance.OnCycleright;
             @cycleright.performed += instance.OnCycleright;
             @cycleright.canceled += instance.OnCycleright;
+            @moveup.started += instance.OnMoveup;
+            @moveup.performed += instance.OnMoveup;
+            @moveup.canceled += instance.OnMoveup;
+            @movedown.started += instance.OnMovedown;
+            @movedown.performed += instance.OnMovedown;
+            @movedown.canceled += instance.OnMovedown;
+            @info.started += instance.OnInfo;
+            @info.performed += instance.OnInfo;
+            @info.canceled += instance.OnInfo;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -450,6 +561,15 @@ public partial class @FPSinputs: IInputActionCollection2, IDisposable
             @cycleright.started -= instance.OnCycleright;
             @cycleright.performed -= instance.OnCycleright;
             @cycleright.canceled -= instance.OnCycleright;
+            @moveup.started -= instance.OnMoveup;
+            @moveup.performed -= instance.OnMoveup;
+            @moveup.canceled -= instance.OnMoveup;
+            @movedown.started -= instance.OnMovedown;
+            @movedown.performed -= instance.OnMovedown;
+            @movedown.canceled -= instance.OnMovedown;
+            @info.started -= instance.OnInfo;
+            @info.performed -= instance.OnInfo;
+            @info.canceled -= instance.OnInfo;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -485,5 +605,8 @@ public partial class @FPSinputs: IInputActionCollection2, IDisposable
         void OnSelect(InputAction.CallbackContext context);
         void OnCycleleft(InputAction.CallbackContext context);
         void OnCycleright(InputAction.CallbackContext context);
+        void OnMoveup(InputAction.CallbackContext context);
+        void OnMovedown(InputAction.CallbackContext context);
+        void OnInfo(InputAction.CallbackContext context);
     }
 }
