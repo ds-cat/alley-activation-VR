@@ -55,7 +55,11 @@ public class selectObject : MonoBehaviour
     {
         isInMenuState = false;
         isInDefaultState = true;
-        outline.enabled = false;
+        if(outline  != null)
+        {
+            outline.enabled = false;
+        }
+        
         menu.enabled = false;
         infoGraphic.enabled = false;
     }

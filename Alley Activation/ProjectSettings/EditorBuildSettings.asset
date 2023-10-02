@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/First Person/FPS Alley.unity
     guid: fe30c64ac24fd294c90f46f13db03d5e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/First Person/First Person Alley.unity
     guid: 3a3c6fe06c71e084088d8a677d5de9de
+  - enabled: 0
+    path: Assets/Scenes/VR Alley.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MOBLIE/MOBILE VR alley.unity
+    guid: 9a43a30d3a2168f408aa7950ff80dee5
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

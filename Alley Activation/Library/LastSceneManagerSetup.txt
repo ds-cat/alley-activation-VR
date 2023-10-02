@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/First Person/First Person Alley.unity
+- path: Assets/Scenes/MOBLIE/MOBILE VR alley.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
