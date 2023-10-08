@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.Sockets;
@@ -42,7 +42,7 @@ namespace DF
 
         public bool displayUp;
 
-        public menuScript menuScript;
+        //public menuScript menuScript;
 
 
 
@@ -84,7 +84,7 @@ namespace DF
             pointer.thickness = 0.00f;
             infoGraphic.sprite = null;
             infoGraphic.color = new Vector4(0,0, 0, 0);
-            menuScript = GetComponentInChildren<menuScript>();
+            //menuScript = GetComponentInChildren<menuScript>();
             //pointer.pointer;
         }
 
@@ -116,8 +116,8 @@ namespace DF
 
             public void Update()
         {
-            if (menuScript.menuBackround.enabled == false)
-            {
+            //if (//menuScript.menuBackround.enabled == false)
+            //{
                 if (trigger_down)
                 {
 
@@ -144,10 +144,10 @@ namespace DF
                     if (outline != null)
                         outline.enabled = false;
                 }
-            }
+            //}
         }
     }
 }
 
-
+*/
 

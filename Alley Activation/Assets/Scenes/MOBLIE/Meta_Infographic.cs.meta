@@ -3,7 +3,20 @@ guid: fa76f9cdbbf4f75479f12b812c0647e7
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - main_cam: {instanceID: 0}
+  - currentSelection: {instanceID: 0}
+  - Info: {instanceID: 0}
+  - collide: {instanceID: 0}
+  - body: {instanceID: 0}
+  - pointerLaser: {instanceID: 0}
+  - infoGraphic: {instanceID: 0}
+  - outline: {instanceID: 0}
+  - interactor: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - not_found: {fileID: 8300000, guid: fdcbdcd5e7d71594bb123666b2bcb779, type: 3}
+  - not_learnable: {fileID: 8300000, guid: d9eaf2bf45acf3449ab5958696f305d3, type: 3}
+  - learnable: {fileID: 8300000, guid: 6820d5b6e4c56b748b1afe3f5d550ee7, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

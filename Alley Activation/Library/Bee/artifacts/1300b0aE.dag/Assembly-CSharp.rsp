@@ -408,9 +408,13 @@
 "Assets/Scenes/InputManager.cs"
 "Assets/Scenes/laser.cs"
 "Assets/Scenes/menuScript.cs"
+"Assets/Scenes/moble_inputs.cs"
 "Assets/Scenes/MOBLIE/Meta_Infographic.cs"
+"Assets/Scenes/MOBLIE/Meta_Menu_Script.cs"
+"Assets/Scenes/MOBLIE/meta_object_sender.cs"
 "Assets/Scenes/objectInfo.cs"
 "Assets/Scenes/PointAtObject.cs"
+"Assets/Scenes/Scriptable Objects/Objects/moblie_grab_script.cs"
 "Assets/Scenes/spawnableProp.cs"
 "Assets/Scenes/XRPlatformControllerSetup.cs"
 -langversion:9.0

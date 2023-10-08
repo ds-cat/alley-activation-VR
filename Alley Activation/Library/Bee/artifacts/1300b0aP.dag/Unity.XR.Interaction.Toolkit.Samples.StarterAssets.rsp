@@ -307,6 +307,7 @@
 "Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/GazeInputManager.cs"
 "Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/PokeStation/IncrementUIText.cs"
 "Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs"
+"Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/XRI Default Input Actions.cs"
 -langversion:9.0
 
 /deterministic

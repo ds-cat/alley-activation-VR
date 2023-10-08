@@ -6,6 +6,8 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.UI;
 using UnityEngine.InputSystem.XR;
+using UnityEngine.XR.Interaction.Toolkit;
+using System.Linq;
 
 namespace DF
 {
@@ -21,67 +23,88 @@ namespace DF
         public Rigidbody body;
         public laser pointerLaser;
         public InputDevice leftContoller;
-        public XRController rightContoller;
         public Image infoGraphic;
         public Outline outline;
         public string object_info_string;
         public bool trigger_down;
         public bool trigger_up;
         public bool displayUp;
-        public menuScript menuScript;
+        //public menuScript menuScript;
         Unity.XR.Oculus.Input.OculusRemote remote;
+        public XRRayInteractor interactor;
+         
+        public AudioSource audioSource;
+        public AudioClip not_found;
+        public AudioClip not_learnable;
+        public AudioClip learnable;
 
+        public Transform trackedObject;
+        public bool tracking;
+        public Transform rightHand;
+        public void startTracking()
+        {
+            tracking = true;
+        }
+        public void stopTracking() { 
+            tracking = false;   
+        }
 
         public void FixedUpdate()
         {
-        
+            if (tracking == true)
+            {
+                trackedObject.position = rightHand.transform.position;
+                trackedObject.rotation = rightHand.transform.rotation;
+            }
         }
 
-        public void pointAtObject()
+        public void openInfoGraphic()
         {
-
-           
-                if (hit.collider != null)
-                {
-                    if (hit.collider.tag == "learnable")
-                    {
-
-
-                        //highlight hit object
-                        currentSelection = hit.transform.gameObject;
-                        outline = currentSelection.GetComponent<Outline>();
-                        Info = currentSelection.GetComponent<objectInfo>();
-                        object_info_string = Info.info;
-                        outline.enabled = true;
-
-                    }
-                }
-
-
+            //IXRSelectInteractable temp = interactor.GetOldestInteractableSelected();
+            //if (temp.transform.parent.gameObject.tag != null)
+            //{
+                //Info = currentSelection.GetComponent<objectInfo>();
+                //if (Info != null)
+                //{
+                    audioSource.clip = not_learnable;
+                    //audioSource.Play();
+                    //Info = currentSelection.GetComponent<objectInfo>();
+                    //currentSelection = temp.transform.parent.gameObject; ;
+                    //outline = currentSelection.GetComponent<Outline>();
+                    
+                    //object_info_string = Info.info;
+                    //outline.enabled = true;
+                    
+               // }
+               // else
+               // {
+               //     audioSource.clip = not_learnable;
+                //}
+            //}
+           // else
+           // {
+                //audioSource.clip = ();
+           // }
             
-
-
-
-
-
+            //display infographic
+            infoGraphic.color = Color.white;
+            //infoGraphic.sprite = Info.image;
+            displayUp = true;
         }
+
+     
 
         private void Start()
         {
-            // right_hand = right_hand.parent.GetComponentInChildren<Hand>();
-            List<InputDevice> devices = new List<InputDevice>();
-            InputDevices.GetDevices(devices);
-            Debug.Log(devices);
-            foreach (var item in devices)
-            {
-                Debug.Log(item.name);
-            }
-
-           
+            audioSource = GetComponent<AudioSource>();
+            audioSource.clip = not_found; audioSource.Play();   
             //infoGraphic.sprite = null;
-            //i/nfoGraphic.color = new Vector4(0, 0, 0, 0);
+            infoGraphic.color = new Vector4(0, 0, 0, 0);
             //menuScript = GetComponentInChildren<menuScript>();
             //pointer.pointer;
+            openInfoGraphic();
+            closeInfoGraph();
+
         }
 
         public void TriggerUp()
@@ -102,7 +125,7 @@ namespace DF
 
         public void closeInfoGraph()
         {
-            infoGraphic.sprite = null;
+            //infoGraphic.sprite = null;
             infoGraphic.color = infoGraphic.color = new Vector4(0, 0, 0, 0);
             outline.enabled = false;
             currentSelection = null;
@@ -112,38 +135,6 @@ namespace DF
 
         public void Update()
         {
-            if (false)
-            {
-                if (menuScript.menuBackround.enabled == false)
-                {
-                    if (trigger_down)
-                    {
-
-                        if (displayUp)
-                        {
-                            //close dispaly infographic
-                            closeInfoGraph();
-                        }
-                        else
-                        {
-                            pointAtObject();
-                        }
-
-                    }
-                    else if (currentSelection != null)
-                    {
-                        //display infographic
-                        infoGraphic.color = Color.white;
-                        infoGraphic.sprite = Info.image;
-                        displayUp = true;
-                    }
-                    else
-                    {
-                        if (outline != null)
-                            outline.enabled = false;
-                    }
-                }
-            }
         }
     }
 }

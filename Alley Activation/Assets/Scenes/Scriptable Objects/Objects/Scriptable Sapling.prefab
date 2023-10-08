@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 6693662377231223116}
   - component: {fileID: 6477846947851178412}
   - component: {fileID: 4898183455885863392}
+  - component: {fileID: 677978732592679176}
+  - component: {fileID: -5358895487460228566}
   m_Layer: 0
   m_Name: Scriptable Sapling
   m_TagString: learnable
@@ -97,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info: 
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: ad30339dfe1f21f4c9c68e8b6c1e02cd, type: 3}
 --- !u!114 &4898183455885863392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +149,31 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -5358895487460228566}
+        m_TargetAssemblyTypeName: meta_object_sender, Assembly-CSharp
+        m_MethodName: SendToInfographic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 677978732592679176}
+        m_TargetAssemblyTypeName: moblie_grab_script, Assembly-CSharp
+        m_MethodName: trackLocation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -187,6 +213,35 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &677978732592679176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350329744452506691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f051ef2d43f952448ab0b715a8a4a1f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  righthand: {fileID: 0}
+  graphic: {fileID: 0}
+  object_info: {fileID: 0}
+--- !u!114 &-5358895487460228566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350329744452506691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee767d5894321546a853333a391ec37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graphic: {fileID: 0}
+  object_info: {fileID: 0}
 --- !u!1 &673793477056582774
 GameObject:
   m_ObjectHideFlags: 0
