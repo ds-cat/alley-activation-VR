@@ -103,3 +103,5 @@ Alley Activation/Library/PlayerDataCache/Win64/Data/resources.assets.resS
 Alley Activation/Library/PlayerDataCache/Win64/Data/sharedassets0.assets
 Alley Activation/Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS
 *.resS
+*.dylib
+*.resS

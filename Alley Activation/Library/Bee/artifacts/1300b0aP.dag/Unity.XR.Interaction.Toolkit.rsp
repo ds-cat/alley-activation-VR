@@ -112,6 +112,7 @@
 -define:INPUT_SYSTEM_1_1_OR_NEWER
 -define:ANIMATION_MODULE_PRESENT
 -define:PHYSICS2D_MODULE_PRESENT
+-define:BURST_PRESENT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
@@ -301,6 +302,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.XRModule.dll"
 -r:"C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.CoreUtils.ref.dll"

@@ -15,7 +15,7 @@ C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53143
+64042
 Successfully changed project path to: C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation
 C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33448] Host "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 4025120971 [EditorId] 4025120971 [Version] 1048832 [Id] WindowsEditor(7,TheCoalMines) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16432] Host "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 1607421835 [EditorId] 1607421835 [Version] 1048832 [Id] WindowsEditor(7,TheCoalMines) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [33448] Host "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 4025120971 [EditorId] 4025120971 [Version] 1048832 [Id] WindowsEditor(7,TheCoalMines) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16432] Host "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 1607421835 [EditorId] 1607421835 [Version] 1048832 [Id] WindowsEditor(7,TheCoalMines) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 142.88 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.80 ms.
+Refreshing native plugins compatible for Editor in 175.07 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/pugsl/source/repos/alley-activation-VR/Alley Activation/Assets
@@ -62,60 +62,60 @@ Direct3D:
     Renderer: Radeon RX Vega (ID=0x687f)
     Vendor:   ATI
     VRAM:     8119 MB
-    Driver:   31.0.14057.5006
+    Driver:   31.0.21905.1001
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013128 seconds.
+Registered in 0.010588 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 293 ms
-Refreshing native plugins compatible for Editor in 97.29 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
+Android Extension - Scanning For ADB Devices 275 ms
+Refreshing native plugins compatible for Editor in 178.07 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
+- Completed reload, in  1.063 seconds
 Domain Reload Profiling:
-	ReloadAssembly (950ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (1064ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (746ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (580ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (671ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (381ms)
+				InitializePlatformSupportModulesInManaged (373ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
+				RefreshPlugins (178ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013423 seconds.
+Registered in 0.016486 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 95.70 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 148.17 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
@@ -133,43 +133,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.249 seconds
+- Completed reload, in  1.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1249ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1579ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1045ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1338ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
+			SetupTypeCache (341ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (538ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (740ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 5283 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 74 unused Assets / (1.2 MB). Loaded Objects now: 5785.
-Memory consumption went from 229.3 MB to 228.1 MB.
-Total: 3.559200 ms (FindLiveObjects: 0.402100 ms CreateObjectMapping: 0.138500 ms MarkObjects: 2.703600 ms  DeleteObjects: 0.314000 ms)
+Refreshing native plugins compatible for Editor in 1.66 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 6867 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (1.8 MB). Loaded Objects now: 7360.
+Memory consumption went from 300.9 MB to 299.0 MB.
+Total: 5.017100 ms (FindLiveObjects: 0.630000 ms CreateObjectMapping: 0.196300 ms MarkObjects: 3.526900 ms  DeleteObjects: 0.662900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,82 +183,196 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1656646.792219 seconds.
-  path: Assets/Scenes/Scriptable Objects/Objects/House Object.prefab
-  artifactKey: Guid(8485da755ff8dcd40bb386b6af7c927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scriptable Objects/Objects/House Object.prefab using Guid(8485da755ff8dcd40bb386b6af7c927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e00597eed9ca21b45c4d7bcf0930a3f') in 0.189250 seconds 
+  Time since last request: 55651.447608 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Meshs/WoodenBox1_Collider.fbx
+  artifactKey: Guid(a337519c05ca7984382e9d5fda986cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Meshs/WoodenBox1_Collider.fbx using Guid(a337519c05ca7984382e9d5fda986cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564d5f257648ec3a663787405d35a675') in 0.121401 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016139 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pugsl\source\repos\alley-activation-VR\Alley Activation\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1c8569827291471e9db0dcd976e97952>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.180 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1181ms)
-		BeginReloadAssembly (180ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (879ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (379ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.09 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 5201 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (0.9 MB). Loaded Objects now: 5808.
-Memory consumption went from 222.6 MB to 221.7 MB.
-Total: 4.118000 ms (FindLiveObjects: 0.464000 ms CreateObjectMapping: 0.199900 ms MarkObjects: 3.130400 ms  DeleteObjects: 0.322900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 23.183890 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Apple_DefaultMaterial_Normal.png
+  artifactKey: Guid(e90976d57ba30a04b9782f46c174aef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Apple_DefaultMaterial_Normal.png using Guid(e90976d57ba30a04b9782f46c174aef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51edc73d55431430ad5b2cffad9e398e') in 0.117156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Bottle2_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(08304de315af6d042bd1858faa3c0bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Bottle2_DefaultMaterial_AlbedoTransparency.png using Guid(08304de315af6d042bd1858faa3c0bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd340eada8ac43e4acaab3dc758fce22') in 0.060138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Tomato_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(234922bdcdf51e44e95f72055b49e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Tomato_DefaultMaterial_AlbedoTransparency.png using Guid(234922bdcdf51e44e95f72055b49e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b398259da7759425f400505e4ff8c3') in 0.059660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Cheese2_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(e6bbe8e5eccb6fa49b3f37e6d6dc692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Cheese2_DefaultMaterial_AlbedoTransparency.png using Guid(e6bbe8e5eccb6fa49b3f37e6d6dc692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dda52c7370e13225a7163e5fef0b294') in 0.059886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Meat2_DefaultMaterial_Normal.png
+  artifactKey: Guid(5f36631ba862109409b5bc355daab397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Meat2_DefaultMaterial_Normal.png using Guid(5f36631ba862109409b5bc355daab397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142418a4b0f0ded11054f3d662944b9b') in 0.066106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Bread2_DefaultMaterial_Normal.png
+  artifactKey: Guid(7292c5f3259350c4ea54c0b6a8886cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Bread2_DefaultMaterial_Normal.png using Guid(7292c5f3259350c4ea54c0b6a8886cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fda32315a9e956879f8f6a5cb75ef03') in 0.066383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Orange_DefaultMaterial_Normal.png
+  artifactKey: Guid(b0436d11d32f57646b6f3af698e7d965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Orange_DefaultMaterial_Normal.png using Guid(b0436d11d32f57646b6f3af698e7d965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da47a628b6ab8b9515f6e68c535dbb4') in 0.074026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Plate_DefaultMaterial_AO.png
+  artifactKey: Guid(e92726f4032cf5544bce64e5472eaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Plate_DefaultMaterial_AO.png using Guid(e92726f4032cf5544bce64e5472eaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9195b1e186f97f3721035aa8ce8fadac') in 0.058115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Plate_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(93d696d3a7517e647856505faa8af301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Plate_DefaultMaterial_MetallicSmoothness.png using Guid(93d696d3a7517e647856505faa8af301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2fa913c66eea52ae2903dd16e5aa4e') in 0.079955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Bread2_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(588ecee3e61811a4f8d650c5c6e7a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Bread2_DefaultMaterial_MetallicSmoothness.png using Guid(588ecee3e61811a4f8d650c5c6e7a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41225a3035c0f4f551877d1439d186e') in 0.059397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Orange_DefaultMaterial_AO.png
+  artifactKey: Guid(f67510873d8c6954d9a1d89ea20b7cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Orange_DefaultMaterial_AO.png using Guid(f67510873d8c6954d9a1d89ea20b7cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49492c27bb57e09a59336e6a17400c59') in 0.078027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Meat2_DefaultMaterial_AO.png
+  artifactKey: Guid(c6ebb6c1fce49314eb8b5c0365882afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Meat2_DefaultMaterial_AO.png using Guid(c6ebb6c1fce49314eb8b5c0365882afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c959e344010c665086f3487c98e7071') in 0.051982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Bread1_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(9d73265a7059bb447ad0c3b2378ab398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Bread1_DefaultMaterial_MetallicSmoothness.png using Guid(9d73265a7059bb447ad0c3b2378ab398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed2fc6731b4474bfc1dc46f3af2014b') in 0.059813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Sausage_DefaultMaterial_Normal.png
+  artifactKey: Guid(0e3ee6544f085af4ebbf1be8bf0c2cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/Sausage_DefaultMaterial_Normal.png using Guid(0e3ee6544f085af4ebbf1be8bf0c2cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2207aa2c6e3016cc90a7ebd7258a8add') in 0.061998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.097391 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/TraderTent_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(c3d5021a59395da4786ea30067cc22cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/TraderTent_DefaultMaterial_AlbedoTransparency.png using Guid(c3d5021a59395da4786ea30067cc22cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd138bd81f6bf910fb56188390775df37') in 0.061727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/TraderTent_DefaultMaterial_AO.png
+  artifactKey: Guid(759c39b07e1c80d44a67a829139d9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/TraderTent_DefaultMaterial_AO.png using Guid(759c39b07e1c80d44a67a829139d9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad2c6dea76771c52c043614d15a0ec5') in 0.053647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/TraderTent_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(1803f745ba5fe8c47909cad1a87bbbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/TraderTent_DefaultMaterial_MetallicSmoothness.png using Guid(1803f745ba5fe8c47909cad1a87bbbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc96b2b64a18ec5151c65cdd50b8912') in 0.057191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.906143 seconds.
+  path: Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/WoodenBox2_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(cffdbee1603147540a2acadd1c8b1b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/UNIVERSAL RENDER PIPELINE/Textures/WoodenBox2_DefaultMaterial_MetallicSmoothness.png using Guid(cffdbee1603147540a2acadd1c8b1b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cdbe821ca8289a95f1a6bd3b42cebb') in 0.056961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.271599 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Meshs/Apple_Collider.fbx
+  artifactKey: Guid(919689094c2271342bb39e0b1332a32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Meshs/Apple_Collider.fbx using Guid(919689094c2271342bb39e0b1332a32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bf5c96bef54dceb4158b413f09f609') in 0.018230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Apple_DefaultMaterial_Normal.png
+  artifactKey: Guid(9ec8aaf29dc752a41b0c2a409f85d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Apple_DefaultMaterial_Normal.png using Guid(9ec8aaf29dc752a41b0c2a409f85d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c221b8c03973798f3c6a0cea8492693b') in 0.048863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Prefabs/WoodenBox1 Apple.prefab
+  artifactKey: Guid(dfd01c6ad71f83e45bd5655cdca637c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Prefabs/WoodenBox1 Apple.prefab using Guid(dfd01c6ad71f83e45bd5655cdca637c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22b717e280b33f77158a1a5b979f070') in 0.331630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.980979 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Textures/ArrowNormal.png
+  artifactKey: Guid(5d44bb3b4714e2b4da3b93d3c921a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Textures/ArrowNormal.png using Guid(5d44bb3b4714e2b4da3b93d3c921a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a65924d53798aaa8329f981308e246') in 0.052227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Bottle1_DefaultMaterial_Normal.png
+  artifactKey: Guid(52fdef43529b08b44b554c3baef62182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Bottle1_DefaultMaterial_Normal.png using Guid(52fdef43529b08b44b554c3baef62182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57ae73fb0120510ce4f6cff11def443') in 0.054418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Sprites/Circle_60x60_Horizontal.png
+  artifactKey: Guid(94c079cc4df414749a9811ce3555cd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Sprites/Circle_60x60_Horizontal.png using Guid(94c079cc4df414749a9811ce3555cd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac9ccd5cd4d3420d0bed006114dfdf8') in 0.029629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Bottle2_DefaultMaterial_Normal.png
+  artifactKey: Guid(c960a1bdd8966734eabea357da0e6bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Bottle2_DefaultMaterial_Normal.png using Guid(c960a1bdd8966734eabea357da0e6bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df48c397f470f741366695f92a4f41c3') in 0.061723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Cheese1_DefaultMaterial_Normal.png
+  artifactKey: Guid(ec6a4bd6d2c745a4fab129f7513141ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Cheese1_DefaultMaterial_Normal.png using Guid(ec6a4bd6d2c745a4fab129f7513141ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bb97931f1013e499a53bbe4e60b868') in 0.057585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.101773 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Meshs/Orange_Collider.fbx
+  artifactKey: Guid(833cf384705d7ed4a8403cd9bad2925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Meshs/Orange_Collider.fbx using Guid(833cf384705d7ed4a8403cd9bad2925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0c4e774151eaf3d781261a612f57bc') in 0.013215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Mushroom_Fantasy_Orange_10.fbx
+  artifactKey: Guid(769bcb364254fc84f86c3bde2b625a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Mushroom_Fantasy_Orange_10.fbx using Guid(769bcb364254fc84f86c3bde2b625a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c430d36ae71264bc4517b9e201bc7767') in 0.020392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Orange_DefaultMaterial_Normal.png
+  artifactKey: Guid(df4e72394330a0844b178d4ec52ce9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG FOOD PROPS/HD RENDER PIPELINE/Textures/Orange_DefaultMaterial_Normal.png using Guid(df4e72394330a0844b178d4ec52ce9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3732071ff8c179a79edc2c2f1fb75141') in 0.059629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_09.prefab
+  artifactKey: Guid(0ab22827d0f3f0b40a97e9430d684283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_09.prefab using Guid(0ab22827d0f3f0b40a97e9430d684283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0072b074a8e0c495f884e72c76c165') in 0.020419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Mushroom_Fantasy_Orange_09.fbx
+  artifactKey: Guid(43f6c6253561ce74b9f993709176caff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Mushroom_Fantasy_Orange_09.fbx using Guid(43f6c6253561ce74b9f993709176caff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd8bd58074c3d814f581aafe37e80ec') in 0.020080 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
